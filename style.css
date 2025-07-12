@@ -142,8 +142,11 @@ h2 {
 
   border: transparent 10px solid;
   background-image: radial-gradient(
-    circle at 50% 250%,
-    var(--primary-500),
-    transparent
-  );
+      circle at 50% 250%,
+      var(--primary-500),
+      transparent
+    ),
+    linear-gradient(red, blue);
+  background-origin: padding-box, border-box;
+  background-clip: padding-box, border-box;
 }
