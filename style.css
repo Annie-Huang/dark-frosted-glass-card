@@ -181,5 +181,8 @@ h2 {
   /*background: steelblue;*/
   background: linear-gradient(var(--border-1), red) border-box;
 
-  mask: linear-gradient(hsl(0 0 0 / 0.5)) border-box;
+  /*mask: linear-gradient(hsl(0 0 0 / 0.5)) border-box;*/
+  mask:
+    linear-gradient(black) border-box,
+    linear-gradient(black) padding-box;
 }
