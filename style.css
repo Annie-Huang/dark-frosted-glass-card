@@ -172,6 +172,8 @@ h2 {
 }
 
 .card::before {
+  /* this pseudo element is for the border of the card */
+
   content: '';
   position: absolute;
   z-index: -1;
@@ -185,8 +187,13 @@ h2 {
   background: linear-gradient(var(--border-1), var(--border-2)) border-box;
 
   /*mask: linear-gradient(hsl(0 0 0 / 0.5)) border-box;*/
+  /*mask:*/
+  /*  linear-gradient(black) border-box,*/
+  /*  linear-gradient(black) padding-box;*/
+
+  /* adding 0 0 will make it works for all browsers */
   mask:
-    linear-gradient(black) border-box,
-    linear-gradient(black) padding-box;
+    linear-gradient(black 0 0) border-box,
+    linear-gradient(black 0 0) padding-box;
   mask-composite: subtract; /* subtract to just keep the part of the two layers that are not overlapping, which is the border. */
 }
