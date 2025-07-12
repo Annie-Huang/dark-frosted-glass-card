@@ -141,12 +141,17 @@ h2 {
   border-radius: 1rem;
 
   border: transparent 10px solid;
-  background-image: radial-gradient(
-      circle at 50% 250%,
-      var(--primary-500),
-      var(--primary-500)
-    ),
-    linear-gradient(red, blue);
-  background-origin: padding-box, border-box;
-  background-clip: padding-box, border-box;
+  /*background-image: radial-gradient(*/
+  /*    circle at 50% 250%,*/
+  /*    var(--primary-500),*/
+  /*    var(--primary-500)*/
+  /*  ),*/
+  /*  linear-gradient(red, blue);*/
+  /*background-origin: padding-box, border-box;*/
+  /*background-clip: padding-box, border-box;*/
+
+  background:
+    radial-gradient(circle at 50% 250%, var(--primary-500), var(--primary-500))
+      padding-box,
+    linear-gradient(red, blue) border-box;
 }
