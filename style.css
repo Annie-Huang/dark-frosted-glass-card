@@ -185,4 +185,5 @@ h2 {
   mask:
     linear-gradient(black) border-box,
     linear-gradient(black) padding-box;
+  mask-composite: subtract; /* subtract to just keep the part of the two layers that are not overlapping, which is the border. */
 }
