@@ -169,6 +169,8 @@ h2 {
   --border-width: 1px;
   border-radius: 1rem;
   position: relative;
+
+  background: hsl(255, 44%, 7%, 0.5);
 }
 
 .card::before {
