@@ -172,8 +172,11 @@ h2 {
 
   /*background: hsl(255, 44%, 7%, 0.5);*/
   background: hsl(
-    from var(--surface-1) h s l / 0.2
+    from var(--surface-3) h s l / 0.5
   ); /* this is the same as above, but may not have full browser support */
+
+  /* this give the glass effect */
+  backdrop-filter: blur(12px);
 }
 
 .card::before {
