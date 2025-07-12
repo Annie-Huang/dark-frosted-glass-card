@@ -1,0 +1,7 @@
+Create this trendy blurry glass effect with CSS (https://www.youtube.com/watch?v=dsZ7RN9ItR4)
+
+https://codepen.io/kevinpowell/pen/yyNPvaQ
+https://codepen.io/kevinpowell/pen/XJJwaxG
+
+https://github.com/Annie-Huang/dark-frosted-glass-card
+-------------------------------------------------------------------
