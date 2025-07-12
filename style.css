@@ -176,8 +176,10 @@ h2 {
   z-index: -1;
   inset: 0;
   border-radius: inherit;
+  border: 3px solid transparent;
+
   /*background: steelblue;*/
   background: linear-gradient(var(--border-1), red) border-box;
 
-  border: 3px solid transparent;
+  mask: linear-gradient(hsl(0 0 0 / 0.5)) border-box;
 }
