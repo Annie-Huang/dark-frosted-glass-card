@@ -1,0 +1,21 @@
+{
+  "name": "dark-frosted-glass-card",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Annie-Huang/dark-frosted-glass-card.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Annie-Huang/dark-frosted-glass-card/issues"
+  },
+  "homepage": "https://github.com/Annie-Huang/dark-frosted-glass-card#readme"
+}
